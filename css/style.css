@@ -67,6 +67,11 @@ li {
   opacity: 1;
 }
 
+.u-text-palette-3-base {
+  opacity: 1;
+  color: #919103 !important;
+}
+
 .blue {
   float: right;
   opacity: 0.7;
