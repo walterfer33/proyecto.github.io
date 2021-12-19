@@ -76,7 +76,7 @@ li {
 
 .blue {
   float: right;
-  opacity: 0.9;
+  opacity: 0.8;
   width: 19%;
   height: 40%;
   margin: 10px;
@@ -100,7 +100,7 @@ li {
 
 .red {
   float: right;
-  opacity: 0.9;
+  opacity: 0.8;
   width: 19%;
   margin: 10px;
   background: #F5A69B;
@@ -835,4 +835,54 @@ a:hover .grande {
   -ms-transition: top 1s ease;
   transition: top 1s ease;
   z-index: 3;
+}
+
+
+/* Contacto */
+
+.form-consulta {
+  max-width: 500px;
+  padding: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 0.3em;
+}
+
+.campo-form {
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    font-size: 1em;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label span {
+  color: #1557CE;
+}
+
+textarea {
+  min-height: 150px !important;
+}
+
+.btn-form {
+  display: inline-block;
+  border: 0;
+  background: #1557CE;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 20px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px
+}
+
+.btn-form:hover {
+  background: #1557CE;
 }
