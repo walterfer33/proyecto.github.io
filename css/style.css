@@ -1,6 +1,7 @@
 body {
   background-image: url('../img/imagen-fondo.jpg');
   background-attachment: fixed;
+  color: white !important;
 }
 
 
