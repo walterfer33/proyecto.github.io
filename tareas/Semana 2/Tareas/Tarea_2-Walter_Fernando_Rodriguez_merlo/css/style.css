@@ -1,0 +1,113 @@
+body 
+{
+	background: linear-gradient(to bottom, #d3fbca ,white);
+	font-family: calibri;
+  	color:  gray;
+}
+
+header 
+{
+	background-color: #8218e5;
+	height: 5em;
+	position: static;
+  	left: 0;
+  	width: 100%;
+  	color: white;
+  	text-align: center;
+  	border-radius: 0.5em;
+}
+
+#list
+{
+	list-style: square inside;
+	text-align: left;
+}
+
+p
+{
+	text-align: justify;
+}
+
+nav 
+{
+	background-color:  #f6c691;
+	height: 10em;
+	position: static;
+  	left: 0;
+	width: 76%;
+  	color: brown;
+  	font-family: verdana;
+  	font-size: 14px;
+  	text-align: center;
+  	border-radius: 0.5em;
+}
+section
+{
+	position: inherit;
+	background-color:   #fdd460 ;
+	width: 60em;
+  	height: 10em;
+  	color: red;
+}
+
+
+article
+{
+	position: inherit;
+	background-color:  #f9de92;
+	height: 10em;
+	width: 75%;
+	color: gray;
+	font-size: 18px;
+}
+
+aside
+{
+	position: absolute;
+  	top: 115px;
+  	text-align: center;
+  	right: 0;
+  	width: 20em;
+  	height: 35em;
+  	color: white;
+  	background-color:  #d2aff2;
+}
+
+
+footer{
+	background-color: #f20d34;
+	height: 3em;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	color:white;
+  	text-align: center;
+}
+
+#image
+{
+	border-radius: 150%;
+	width: 20%;
+	float: right;
+	position: relative;
+	top: -200px;
+	right: 2em;
+	z-index: 100;
+}
+
+#logos
+{
+	width: 20%;
+	float: right;
+	top: 20px;
+	position: relative;
+}
+
+#redes
+{
+	width: 30px;
+	border-radius: 0.3em;
+	top: 5px;
+	position: relative;
+}

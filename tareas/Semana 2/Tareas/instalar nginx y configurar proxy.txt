@@ -1,0 +1,52 @@
+INSTALAR NGINX
+
+sudo amazon-linux-extras list | grep nginx
+
+sudo amazon-linux-extras enable nginx1        
+
+sudo yum clean metadata
+
+sudo yum -y install nginx
+    
+nginx -v
+
+sudo service nginx start
+
+cd /etc/nginx
+
+sudo nano nginx.conf
+
+
+luego copiar esto debajo de:
+location/ { 
+listen		80;
+listen[::]:	80;
+server_name  _;
+root		/usr/share/nginx/html;
+
+las siguientes lineas
+     
+location / {
+	proxy_pass http://localhost:5000/;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection 'upgrade';
+    proxy_set_header Host $host;
+    proxy_set_header X-forwarded-For $proxy_add_x_forwarded_for;
+ 
+}
+ 
+location /socket.io/ {
+	proxy_pass http://localhost:5000/socket.io/;
+	proxy_http_version 1.1;
+	proxy_set_header Upgrade $http_upgrade;
+	proxy_set_header Connection 'upgrade';
+	proxy_set_header Host $host;
+	proxy_set_header X-forwarded-For $proxy_add_x_forwarded_for;
+}
+
+
+
+REINICIAR NGINX
+
+sudo serive nginx restart

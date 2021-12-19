@@ -1,0 +1,481 @@
+body 
+{
+  background-image: url('../img/imagen-fondo.jpg');
+  background-attachment: fixed;
+}
+
+.logo
+{
+  top: 5px;
+  width: 15%;
+  position: fixed;
+  float: left;
+}
+
+.github
+{
+  width: 30%;
+  border-radius: 0.3em;
+  opacity: 30%;
+}
+
+.video
+{
+  border-radius: 0.3em;
+}
+
+.header
+{
+   height: 2em;
+   background-color: #9C9898;
+   color:white;
+   bottom: 0;
+   border-radius: 0.5em;
+   font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+.redes
+{
+  width: 7%;
+  float: left;
+  letter-spacing: 2pt;
+  margin:0 2px;
+}
+
+
+.mano
+{
+  width: 10%;
+  float: left;
+  letter-spacing: 2pt;
+  margin:0 2px;
+  border-radius: 150px;
+}
+
+
+.seccion .u-sheet-1 {
+  min-height: 987px;
+}
+
+.seccion .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.seccion .disposicion-1 {
+  min-height: 294px;
+}
+
+.seccion .contenedor-1 {
+  padding: 30px 30px 0;
+}
+
+.seccion .u-text-1 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  margin: 0 377px 0 2px;
+}
+
+.seccion .u-text-2 {
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  margin: 20px 377px 0 2px;
+}
+
+.seccion .u-btn-1 {
+  background-image: none;
+  letter-spacing: 3px;
+  font-size: 1.125rem;
+  border-style: none;
+  font-weight: 700;
+  text-transform: none;
+  margin: 30px auto 0 0;
+  padding: 10px 52px 10px 51px;
+}
+
+.seccion .u-icon-1 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.seccion .imagen1 {
+  width: 347px;
+  height: 386px;
+  margin: -252px 0 0 auto;
+  border-radius: 0.7em;
+}
+
+.seccion .disposicion-2 {
+  min-height: 294px;
+}
+
+.seccion .contenedor-2 {
+  padding: 30px;
+}
+
+.seccion .u-icon-2 {
+  height: 96px;
+  width: 96px;
+  margin: 0 auto;
+}
+
+.u-size-90 {
+  width:800px; 
+  margin:0 auto;
+}
+
+.seccion .u-text-3 {
+  font-weight: 700;
+  width: 229px;
+  font-size: 1.875rem;
+  margin: 25px auto 0;
+}
+
+.seccion .u-text-4 {
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  margin: 20px 0 0;
+}
+
+.seccion .disposicion-3 {
+  min-height: 393px;
+  background-image: none;
+}
+
+.seccion .contenedor-3 {
+  padding: 30px;
+}
+
+.seccion .u-icon-3 {
+  height: 96px;
+  width: 96px;
+  color: rgb(255, 138, 138) !important;
+  margin: 0 auto;
+}
+
+.seccion .u-text-5 {
+  font-weight: 700;
+  width: 229px;
+  font-size: 1.875rem;
+  margin: 25px auto 0;
+}
+
+.seccion .u-text-6 {
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  margin: 20px 0 0;
+}
+
+.seccion .disposicion-4 {
+  min-height: 393px;
+}
+
+.seccion .contenedor-4 {
+  padding: 30px;
+}
+
+.seccion .u-icon-4 {
+  height: 96px;
+  width: 96px;
+  color: rgb(255, 193, 102) !important;
+  margin: 0 auto;
+}
+
+.seccion .u-text-7 {
+  font-weight: 700;
+  width: 229px;
+  font-size: 1.875rem;
+  margin: 25px auto 0;
+}
+
+.seccion .u-text-8 {
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  margin: 20px 0 0;
+}
+
+.seccion .disposicion-5 {
+  min-height: 393px;
+}
+
+.seccion .contenedor-5 {
+  padding: 30px;
+}
+
+.seccion .u-icon-5 {
+  height: 96px;
+  width: 96px;
+  color: rgb(150, 147, 230) !important;
+  margin: 0 auto;
+}
+
+.seccion .u-text-9 {
+  font-weight: 700;
+  width: 229px;
+  font-size: 1.875rem;
+  margin: 25px auto 0;
+}
+
+.seccion .u-text-10 {
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  margin: 20px 0 0;
+}
+
+.seccion .u-text-11 {
+  font-size: 1.125rem;
+  width: 366px;
+  margin: 30px auto 60px;
+}
+
+.seccion .u-btn-2 {
+  border-style: none none solid;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .seccion .u-sheet-1 {
+    min-height: 866px;
+  }
+
+  .seccion .disposicion-1 {
+    min-height: 439px;
+  }
+
+  .seccion .u-text-1 {
+    width: auto;
+    margin-right: 302px;
+    margin-left: 0;
+  }
+
+  .seccion .u-text-2 {
+    width: auto;
+    margin-right: 302px;
+    margin-left: 0;
+  }
+
+
+  .seccion .disposicion-2 {
+    min-height: 355px;
+  }
+
+  .seccion .u-icon-2 {
+    color: rgb(255, 138, 138) !important;
+  }
+
+  .seccion .disposicion-3 {
+    min-height: 324px;
+  }
+
+  .seccion .disposicion-4 {
+    min-height: 324px;
+  }
+
+  .seccion .disposicion-5 {
+    min-height: 324px;
+  }
+}
+
+@media (max-width: 991px) {
+  .seccion .u-sheet-1 {
+    min-height: 1202px;
+  }
+
+  .seccion .disposicion-1 {
+    min-height: 569px;
+  }
+
+  .seccion .contenedor-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .seccion .u-text-1 {
+    font-size: 1.5rem;
+    margin-right: 0;
+  }
+
+  .seccion .u-text-2 {
+    margin-right: 0;
+  }
+
+
+  .seccion .disposicion-2 {
+    min-height: 569px;
+  }
+
+  .seccion .contenedor-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .seccion .u-text-3 {
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .seccion .disposicion-3 {
+    min-height: 467px;
+  }
+
+  .seccion .contenedor-3 {
+    padding-right: 19px;
+    padding-left: 20px;
+  }
+
+  .seccion .u-text-5 {
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .seccion .u-text-6 {
+    margin-right: 1px;
+  }
+
+  .seccion .disposicion-4 {
+    min-height: 467px;
+  }
+
+  .seccion .contenedor-4 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .seccion .u-text-7 {
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .seccion .disposicion-5 {
+    min-height: 467px;
+  }
+
+  .seccion .contenedor-5 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .seccion .u-text-9 {
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .seccion .u-text-11 {
+    margin-bottom: 59px;
+  }
+}
+
+@media (max-width: 767px) {
+  .seccion .u-sheet-1 {
+    min-height: 700px;
+  }
+
+  .seccion .disposicion-1 {
+    min-height: 502px;
+  }
+
+  .seccion .contenedor-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .seccion .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .seccion .u-text-2 {
+    margin-top: 30px;
+  }
+
+  .seccion .u-btn-1 {
+    margin-top: 29px;
+    padding: 9px 41px 11px 40px;
+  }
+
+
+  .seccion .disposicion-2 {
+    min-height: 100px;
+  }
+
+  .seccion .contenedor-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .seccion .u-text-3 {
+    font-size: 1.875rem;
+  }
+
+  .seccion .disposicion-3 {
+    min-height: 100px;
+  }
+
+  .seccion .contenedor-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .seccion .u-text-5 {
+    font-size: 1.875rem;
+  }
+
+  .seccion .disposicion-4 {
+    min-height: 100px;
+  }
+
+  .seccion .contenedor-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .seccion .u-text-7 {
+    font-size: 1.875rem;
+  }
+
+  .seccion .disposicion-5 {
+    min-height: 100px;
+  }
+
+  .seccion .contenedor-5 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .seccion .u-text-9 {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .seccion .disposicion-1 {
+    min-height: 100px;
+  }
+
+  .seccion .u-text-6 {
+    margin-right: 0;
+  }
+
+  .seccion .u-text-11 {
+    width: 340px;
+  }
+}
+
+
+.footer{
+    height: 4em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
